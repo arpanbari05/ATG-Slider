@@ -60,7 +60,7 @@ h2 {
 .info-status {
     text-align: right;
     position: absolute;
-    top: 25%;
+    top: 25rem;
     right: -3rem;
     font-size: 2.2rem;
     z-index: 2000;
@@ -275,6 +275,13 @@ button .arrow-right {
         font-size: 56.25%;
     }
 
+    .img {
+        width: 40rem;
+    }
+    .img-8 {
+        top: -20rem;
+        width: 20rem;
+    }
     .img-16 {
         bottom: -20rem;
     }
@@ -291,13 +298,45 @@ button .arrow-right {
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
     html {
         font-size: 50%;
     }
 
     .info-status {
-        top: 20%;
+        top: 25rem;
+    }
+
+    .img {
+        width: 40rem;
+    }
+    .img-1 {
+        left: 25rem;
+    }
+    .img-2 {
+        right: 20rem;
+    }
+    .img-1, .img-2 {
+        top: 25rem;
+    }
+    .img-7 {
+        right: 15rem;
+    }
+    .img-8 {
+        top: -15rem;
+        width: 20rem;
+    }
+    .img-15 {
+        top: -10rem;
+        right: 10rem;
+        width: 30rem;
+    }
+    .img-16 {
+        bottom: -30rem;
+    }
+    .img-19 {
+        top: -5rem;
+        right: 2rem;
     }
 
     .info-ad {
@@ -306,6 +345,43 @@ button .arrow-right {
 }
 
 @media (max-width: 1500px) {
+    .logo {
+        top: 55%;
+        width: 35rem;
+    }
+    .img {
+        width: 35rem;
+    }
+    .img-1 {
+        left: 25rem;
+    }
+    .img-2 {
+        right: 8rem;
+    }
+
+    .img-6 {
+        bottom: -15rem;
+        left: 8rem;
+    }
+    .img-8 {
+        width: 20rem;
+    }
+
+    .img-12 {
+        width: 40rem;
+        left: 20rem;
+    }
+
+    .img-15 {
+        width: 30rem;
+        right: 5rem;
+    }
+    .img-19 {
+        right: 0;
+    }
+}
+
+@media (max-width: 1200px) {
     .slide-1 {
         display: block;
     }
@@ -328,6 +404,18 @@ button .arrow-right {
         height: 35vh;
         float: bottom;
     }
+    .img-1{
+        top: 10rem;
+        left: 25%;
+    }
+    .img-2 {
+        top: 10rem;
+        right: 25%;
+    }
+    .img-4, .img-7, .img-11, .img-15{
+        right: 25%;
+    }
+
     .img-6 {
         left: 25rem;
     }
@@ -363,6 +451,9 @@ button .arrow-right {
     .img-3 {
         left: 10vw;
     }
+    .img-4 {
+        right: 0;
+    }
 
     .img-9,
     .img-8, 
@@ -374,7 +465,7 @@ button .arrow-right {
         left: 10vw;
     }
     .img-7 {
-        right: 10vw;
+        right: 0vw;
     }
 
     .img-11 {
@@ -387,20 +478,23 @@ button .arrow-right {
     }
 
     .img-14 {
-        top: 2rem;
         left: 10vw;
+        top: 8rem;
     }
 
     .img-15 {
         width: 31rem;
-        top: 2rem;
+        top: 8rem;
         right: 10vw;
+    }
+    .img-16 {
+        top: 2rem;
     }
     .img-17 {
         right: 10vw;
     }
     .img-19 {
-        top: -30rem;
+        top: -40rem;
     }
 }
 
@@ -409,6 +503,12 @@ button .arrow-right {
         font-size: 43.75%;
     }
 
+    .img-1 {
+        left: -5rem;
+    }
+    .img-2 {
+        right: 2rem;
+    }
     .img-3 {
         left: 3vw;
     }
